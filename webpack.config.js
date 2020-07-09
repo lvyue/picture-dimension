@@ -13,7 +13,7 @@ module.exports = {
     　　　　}]
     　　},
 　　output: {
-　　　　 library: "PictureDimensions",
+　　　　 library: "PictureDimension",
         path: path.resolve(__dirname, "./lib"),
         filename: "index.umd.js",
         libraryTarget: "umd",

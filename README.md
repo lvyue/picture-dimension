@@ -1,13 +1,13 @@
-# picture-dimenssions  
+# picture-dimensionjs  
 
-本模块用于在前端识别图片文件类型以及获取文件dimenssions信息.
+本模块用于在前端识别图片文件类型以及获取文件dimension信息.
 
 
 
 ## 安装
 
 ```bash  
-yarn add picture-dimensions
+yarn add picture-dimensionjs
 # OR 
-npm install picture-dimensions
+npm install picture-dimensionjs
  ```

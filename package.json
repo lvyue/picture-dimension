@@ -1,7 +1,7 @@
 {
-  "name": "picture-dimensions",
-  "version": "0.0.2",
-  "description": "picture-dimensions",
+  "name": "picture-dimensionjs",
+  "version": "0.0.1",
+  "description": "picture-dimensionjs",
   "main": "lib/index.umd.js",
   "scripts": {
     "serve": "serve -p 3300",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lvyue/picture-dimensions.git"
+    "url": "https://github.com/lvyue/picture-dimension.git"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
