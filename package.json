@@ -1,6 +1,6 @@
 {
-  "name": "picture-dimensions",
-  "version": "0.0.1",
+  "name": "@lvyue/picture-dimensions",
+  "version": "0.0.2",
   "description": "picture-dimensions",
   "main": "lib/index.umd.js",
   "scripts": {
