@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/index.umd.js"></script>
+</head>
+<body>
+    <input type="file" id="file">
+    <div id="result"></div>
+    <script>
+        const input  = document.querySelector('#file');
+        const result  = document.querySelector('#result');
+        input.addEventListener('change',(e) => {
+            const {files} = e.target;
+            if (files) {
+                const f = files[0];
+                PictureDimensions(f).then((info)=> {
+                    result.innerHTML = `<p>${JSON.stringify(info)}</p>`
+                });
+            }
+        })
+    </script>
+</body>
+</html>
