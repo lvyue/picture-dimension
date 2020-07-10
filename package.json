@@ -1,11 +1,15 @@
 {
   "name": "picture-dimensionjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "picture-dimensionjs",
   "main": "lib/index.umd.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
-    "serve": "serve -p 3300",
-    "build": "webpack --config webpack.config.js && tsc -p tsconfig.json"
+    "serve": "serve -p 3002",
+    "build:ts": "tsc -p tsconfig.json",
+    "build": "webpack --config webpack.config.js && npm run build:ts",
+    "watch": "npm run build:ts && tsc -p tsconfig.json -w"
   },
   "keywords": ["imageSize", "image dimensions", "dimensions", "image", "size"],
   "author": "lvyue <lvyuely@gmail.com>",

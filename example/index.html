@@ -16,7 +16,7 @@
             const {files} = e.target;
             if (files) {
                 const f = files[0];
-                PictureDimensions(f).then((info)=> {
+                PictureDimension(f).then((info)=> {
                     result.innerHTML = `<p>${JSON.stringify(info)}</p>`
                 });
             }
