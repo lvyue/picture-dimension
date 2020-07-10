@@ -26,5 +26,6 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   },
-  "files": ["lib"]
+  "files": ["lib"],
+  "publishConfig": { "registry": "https://registry.npmjs.org" }
 }
